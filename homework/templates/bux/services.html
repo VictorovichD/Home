@@ -1,0 +1,233 @@
+{% extends "base.html" %}
+<html lang="en">
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>Бухгалтерия</title>
+</head>
+<body>
+{% block page_content %}
+<h2 class="wb-stl-heading2" style="text-align: center;">Наши услуги</h2>
+
+<div class="row row-cols-1 row-cols-md-1 mb-1 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal" _msthash="1615172" _msttexthash="1391767">Постановка и ведение бухгалтерского учета</h4>
+          </div>
+          <div class="card-body">Ведение бухгалтерии ИП и юридических лиц.
+
+
+
+Примерная стоимость услуг:
+
+*бухгалтерское обслуживание малого бизнеса при УСН:
+
+-до 15 первичных документов в месяц-от 250 бел. руб.;
+
+-от 16 до 30 первичных документов в месяц-от 300 бел. руб.:
+
+-от 30 до 50 первичных документов в месяц-от 400 бел. руб.;
+
+от 50 до 100 первичных документов в месяц-от 500 бел. руб.;
+
+-свыше 100 первчиных документов в месяц-по согласованию;
+
+*бухгалтерское обслуживание малого бизнеса при ОСН:
+
+-до 15 первичных документов в месяц-от 400 бел. руб.;
+
+-от 16 до 30 первичных документов в месяц-от 500 бел. руб.:
+
+-от 30 до 50 первичных документов в месяц-от 600 бел. руб.;
+
+от 50 до 100 первичных документов в месяц-от 700 бел. руб.;
+
+-свыше 100 первчиных документов в месяц-по согласованию;
+
+*ведение 1 банковского счета-40 бел. руб./счет;
+
+*нулевая отчетность-150 бел. руб./квартал;
+
+*постановка бухгалтерского учета-от 300 бел. руб.
+
+**ведение ИП на подоходном налоге-от 100 бел. руб./мес.
+
+
+
+Цены по договоренности могут быть иные!
+              <form action="/new/" method="post">
+            {% csrf_token %}
+           <input class= "btn btn-outline-secondary btn-lg" type="submit" value="перейти">
+        </form>
+ </li>
+            </div>
+          </div>
+        </div>
+
+
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal" _msthash="1615172" _msttexthash="1391767">Составление деклараций
+ </h4>
+          </div>
+          <div class="card-body">Подготовка и сдача декларация для ИП и юридических лиц.
+
+
+
+
+
+Примерная стоимость услуг:
+
+*составление налоговых деклараций-30 бел. руб/декларация;
+
+*написание ответов по запросам ИМНС-20 бел. руб.
+
+Цены по договоренности могут быть иные!</li>
+              <form action="/new/" method="post">
+            {% csrf_token %}
+           <input class= "btn btn-outline-secondary btn-lg" type="submit" value="перейти">
+        </form>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal" _msthash="1615172" _msttexthash="1391767">Составление бухгалтерской отчетности</h4>
+          </div>
+          <div class="card-body">Бухгалтерская отчетность для юридических лиц.
+
+
+
+Примерная стоимость услуг:
+
+*подготовка и сдача  бухгалтерского баланса с приложениями-30 бел. руб./1 форма.
+
+Цены по договоренности могут быть иные!
+
+ </li>
+              <form action="/new/" method="post">
+            {% csrf_token %}
+           <input class= "btn btn-outline-secondary btn-lg" type="submit" value="перейти">
+        </form>
+          </div>
+        </div>
+      </div>
+
+
+
+       <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal" _msthash="1615172" _msttexthash="1391767">Кадры</h4>
+          </div>
+          <div class="card-body">Офоррмление приема, увольнения наемных лиц ИП и юридических лиц, формирование личных дел сотрудников
+
+
+
+Примерная стоимость услуг:
+
+*начисление заработной платы и налогов от фонда оплаты труда на 1 сотрудника-20,00 бел. руб.;
+
+*составление штатного расписания, положения об оплате труда, положения по премированию-25,00 бел. руб.:
+
+*ведение (восстановление) кадрового учета (приказы, штатное расписание, должностные инструкции, трудовые договоры) на 1 сотрудника-25,00 бел. руб.:
+
+*подготовка и сдача отчета 4-фонд-20,00 бел. руб/отчет.
+
+Цены по договоренности могут быть иные!
+
+ </li>
+              <form action="/new/" method="post">
+            {% csrf_token %}
+           <input class= "btn btn-outline-secondary btn-lg" type="submit" value="перейти">
+        </form>
+          </div>
+        </div>
+       </div>
+
+
+
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+           <div class="card-header py-3">
+            <h4 class="my-0 fw-normal" _msthash="1615172" _msttexthash="1391767">Персоницифированный учет</h4>
+           </div>
+           <div class="card-body">Подготовка и сдача отчетов ПУ-1, Пу-2,ПУ-3 для ИП и юридических лиц.
+
+
+
+
+
+
+
+Примерная стоимость услуг:
+
+*подготовка и сдача  персонифицированного отчета (ПУ-1, ПУ-2, ПУ-3) -25,00 бел. руб./отчет
+
+Цены по договоренности могут быть иные!
+
+
+
+
+
+Услуги прочие по сопровождению бизнеса:
+
+*настройка серверов, консультации-стоимость по договоренности;
+
+*разработка сайтов (на основе шаблонов)-стоимость от 250 бел руб.
+
+
+
+
+
+ </li>
+               <form action="/new/" method="post">
+            {% csrf_token %}
+           <input class= "btn btn-outline-secondary btn-lg" type="submit" value="перейти">
+        </form>
+            </div>
+           </div>
+        </div>
+
+
+
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal" _msthash="1615172" _msttexthash="1391767">Бизнес-решения</h4>
+          </div>
+          <div class="card-body">Разработка и сопровождение автоматизации бухгалтеского учета, разработка учетной политики.
+
+
+
+Примерная стоимость услуг:
+
+*разработка учетной политики-100,00  бел. руб;
+
+*участие в разработки и сопровождении по автоматизации бухгалтерского учета-60 бел. руб /час;
+
+*выбор системы налогообложения-150 бел. руб.;
+
+*составление документации для регистрации- от 300 бел. руб.;
+
+*открытие расчетных счетов-30 бел. руб.;
+
+*регистрация валютных договоров-20 бел. руб.
+
+Цены по договоренности могут быть иные!</li>
+              <form action="/new/" method="post">
+            {% csrf_token %}
+           <input class= "btn btn-outline-secondary btn-lg" type="submit" value="перейти">
+        </form>
+          </div>
+        </div>
+      </div>
+</div>
+
+{% endblock %}
